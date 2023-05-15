@@ -1,1 +1,57 @@
-
+body {
+  background-color: #ab80ad51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  background-color: #ab80ad51;
+  border-radius: 10px;
+  padding: 10px;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+}
+hr {
+  margin-left: 25px;
+}
+footer {
+  text-align: center;
+}
+.containerH1 {
+  padding: 5px;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.countryDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigContainer {
+  background-color: white;
+  width: 600px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(81, 81, 111, 0.2);
+  border-radius: 10px;
+}
