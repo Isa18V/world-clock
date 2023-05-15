@@ -18,6 +18,9 @@ select {
 ul {
   list-style-type: none;
 }
+small {
+  margin-left: 5px;
+}
 hr {
   margin-left: 25px;
 }
@@ -32,7 +35,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.country {
+.countryStyle {
   font-size: 25px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
