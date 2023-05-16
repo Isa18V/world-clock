@@ -23,19 +23,12 @@ select {
 hr {
   margin-left: 25px;
 }
+small {
+  margin-left: 5px;
+}
 footer {
   text-align: center;
 }
-
-.containerH1 {
-  padding: 5px;
-}
-.dropdown {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .bigContainer {
   background-color: white;
   width: 600px;
@@ -43,4 +36,20 @@ footer {
   margin: 20px;
   box-shadow: 12px 12px 2px 1px rgba(81, 81, 111, 0.2);
   border-radius: 10px;
+}
+.containerH1 {
+  padding: 5px;
+}
+.date {
+  color: rgba(164, 134, 165, 0.755);
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
