@@ -1,6 +1,6 @@
 function updateTime() {
   // london
-  let londonElement = document.getElementById("london");
+  let londonElement = document.getElementById("ohio");
   let londonTimeElement = londonElement.querySelector(".time");
   let londonDateElement = londonElement.querySelector(".date");
   let londonTime = moment();
