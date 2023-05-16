@@ -24,7 +24,7 @@ hr {
   margin-left: 25px;
 }
 small {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 footer {
   text-align: center;
@@ -52,4 +52,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 }
