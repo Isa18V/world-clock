@@ -20,12 +20,11 @@
     <div class="bigContainer">
         <!-- START row h1 and dropdown(select) -->
         <div class="row">
-            <!-- START first colmn (h1) -->
+
             <div class="col-lg-6 col-md-12 containerH1">
                 <h1>World Clock</h1>
             </div>
-            <!-- END first colmn (h1) -->
-            <!-- START second colmn (dropdown) -->
+
             <div class="col-lg-6 col-md-12 dropdown">
                 <select name="country" id="countrySelect">
                     <option value="selectOption">Select option</option>
@@ -34,63 +33,27 @@
                     <option value="eindhoven">Eindhoven</option>
                 </select>
             </div>
-            <!-- END second colmn (dropdown) -->
+
         </div>
         <!-- End row h1 and dropdown(select)-->
 
-        <!-- START row city && date && hour 1 -->
-        <div class="row">
-            <!-- START first colmn -->
-            <div class="col-lg-6 col-md-12 countryDate">
-                <ul class="city" id="london">
-                    <li class="countryStyle">London</li>
-                    <li class="date">august 20th 2022</li>
-                </ul>
+        <div id="cities" class="container text-center">
+            <div class="row" class="city" id="los-angeles">
+                <div class="col-lg-6 col-md-12">
+                    <h2>Los Angeles</h2>
+                    <div class="date">...</div>
+                </div>
+                <div class="col-lg-6 col-md-12" class="time">...</div>
             </div>
-            <!-- END first colmn -->
-            <!-- START seconde colmn -->
-            <div class="col-lg-6 col-md-12 clock time">
-                12:00:00 <small> AM </small>
+            <hr>
+            <div class="row" class="city" id="paris">
+                <div class="col-lg-6 col-md-12">
+                    <h2>Paris</h2>
+                    <div class="date">...</div>
+                </div>
+                <div class="col-lg-6 col-md-12" class="time">...</div>
             </div>
-            <!-- END seconde colmn -->
         </div>
-        <!-- End row city && date && hour 1-->
-        <hr>
-        <!-- START row city && date && hour 2-->
-        <div class="row">
-            <!-- START first colmn -->
-            <div class="col-lg-6 col-md-12 countryDate">
-                <ul class="city" id="paris">
-                    <li class="countryStyle">Paris</li>
-                    <li class="date">august 20th 2022</li>
-                </ul>
-            </div>
-            <!-- END first colmn -->
-            <!-- START seconde colmn -->
-            <div class="col-lg-6 col-md-12 clock time">
-                12:00:00 <small> AM </small>
-            </div>
-            <!-- END seconde colmn -->
-        </div>
-        <!-- End row city && date && hour 2-->
-        <hr>
-        <!-- START row city && date && hour 3-->
-        <div class="row">
-            <!-- START first colmn -->
-            <div class="col-lg-6 col-md-12 countryDate time">
-                <ul class="city" id="rome">
-                    <li class="countryStyle">Rome</li>
-                    <li class="date">august 20th 2022</li>
-                </ul>
-            </div>
-            <!-- END first colmn -->
-            <!-- START seconde colmn -->
-            <div class="col-lg-6 col-md-12 clock time">
-                12:00:00 <small> AM </small>
-            </div>
-            <!-- END seconde colmn -->
-        </div>
-        <!-- End row city && date && hour 3-->
         <br>
         <footer>Codes by Isabel.V and is <a href="" target="_blank">Open-sourced-code</a></footer>
     </div>

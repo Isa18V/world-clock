@@ -10,16 +10,15 @@ h1 {
   border-radius: 10px;
   padding: 10px;
 }
+h2 {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 select {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-}
-ul {
-  list-style-type: none;
-}
-small {
-  margin-left: 5px;
 }
 hr {
   margin-left: 25px;
@@ -27,6 +26,7 @@ hr {
 footer {
   text-align: center;
 }
+
 .containerH1 {
   padding: 5px;
 }
@@ -35,24 +35,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.countryStyle {
-  font-size: 25px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.countryDate {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.date {
-  color: rgba(164, 134, 165, 0.755);
-}
-.clock {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .bigContainer {
   background-color: white;
   width: 600px;

@@ -1,6 +1,5 @@
 // // london
-// let londonElement = document.querySelector("#london");
-// console.log("londonElement");
-// let londonDateElement = londonElement.document.querySelector(".date");
-// let londonTimeElement = londonElement.document.querySelector(".time");
-// londonDateElement.innerHTML = moment().format("MMMM Do DDD");
+// let londonElement = document.getElementById("london");
+// let londonTimeElement = londonElement.querySelector(".time");
+// let londonDateElement = londonElement.querySelector(".date");
+// console.log(londonTimeElement);
