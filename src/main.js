@@ -1,15 +1,15 @@
 function updateTime() {
-  // Ohio
-  let londonElement = document.getElementById("ohio");
-  if (londonElement) {
-    let londonTimeElement = londonElement.querySelector(".time");
-    let londonDateElement = londonElement.querySelector(".date");
-    let londonTime = moment();
+  // Santa Isabel
+  let SantaIsabelElement = document.getElementById("Santa-Isabel");
+  if (SantaIsabelElement) {
+    let SantaIsabelTimeElement = SantaIsabelElement.querySelector(".time");
+    let SantaIsabelDateElement = SantaIsabelElement.querySelector(".date");
+    let SantaIsabelTime = moment().tz(`America/Santa_Isabel`);
 
-    londonDateElement.innerHTML = londonTime.format("MMMM Do YYYY");
-    londonTimeElement.innerHTML = `${londonTime.format(
+    SantaIsabelDateElement.innerHTML = SantaIsabelTime.format("MMMM Do YYYY");
+    SantaIsabelTimeElement.innerHTML = `${SantaIsabelTime.format(
       `HH : mm : ss`
-    )} <small>${londonTime.format("A")}</small> `;
+    )} <small>${SantaIsabelTime.format("A")}</small> `;
 
     // paris
     let parisElement = document.getElementById("paris");
