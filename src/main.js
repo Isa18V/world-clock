@@ -31,6 +31,9 @@ setInterval(updateTime, 1000);
 
 function updateCity(event) {
   let cityTimeZone = event.target.value;
+  if (cityTimeZone === "selectOption") {
+    alert("error");
+  }
   if (cityTimeZone === "current") {
     cityTimeZone = moment.tz.guess();
   }
