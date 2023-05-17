@@ -10,6 +10,9 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <!-- timezone.js -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="src/style.css">
     <title>world-clock</title>
@@ -28,16 +31,16 @@
             <div class="col-lg-6 col-md-12 dropdown">
                 <select name="country" id="city">
                     <option value="selectOption">Select option</option>
-                    <option value="london">London</option>
-                    <option value="rome">Rome</option>
-                    <option value="eindhoven">Eindhoven</option>
+                    <option value="Europe/London">London</option>
+                    <option value="America/Los_Angeles">Los Angeles</option>
+                    <option value="Asia/Bangkok">Bangkok</option>
                 </select>
             </div>
 
         </div>
         <!-- End row h1 and dropdown(select)-->
 
-        <div id="cities" class="container text-center">
+        <div class="container text-center" id="cities">
             <div class="row city" id="ohio">
                 <div class="col-lg-6 col-md-12">
                     <h2>Ohio</h2>
