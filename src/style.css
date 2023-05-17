@@ -1,8 +1,7 @@
 body {
   background-color: #ab80ad51;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 h1 {
   text-align: center;
@@ -28,12 +27,13 @@ small {
 }
 footer {
   text-align: center;
+  margin-top: 20px;
 }
 .bigContainer {
   background-color: white;
   width: 600px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   box-shadow: 12px 12px 2px 1px rgba(81, 81, 111, 0.2);
   border-radius: 10px;
 }
